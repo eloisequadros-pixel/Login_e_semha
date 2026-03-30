@@ -49,16 +49,26 @@ input {
 }
 
 /* Botões */
-button [
-    width: 100%;  
-    padding 0.7 rem;
-    background-color: #007bf;
-
-    transition background
- ]
-
+button {
+    widht: 100%;
+    padding: 0.7 rem;
+    background-color:  #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3 ;
+}
+      
 /* Efeito do mouse */
-buton hover [
-    background-color: #0056b
-    
-]
+button: hover{
+    background-color: #0056b3;
+}
+
+/* Mensagem de erro */
+#message {
+    text-align
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
+}
