@@ -43,7 +43,22 @@ label {
 input {
     width: 100;
     padding: 0,5rem;
-    border: 1px solid @css;
-    
-
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;    
 }
+
+/* Botões */
+button [
+    width: 100%;  
+    padding 0.7 rem;
+    background-color: #007bf;
+
+    transition background
+ ]
+
+/* Efeito do mouse */
+buton hover [
+    background-color: #0056b
+    
+]
